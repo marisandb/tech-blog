@@ -3,7 +3,7 @@ async function editFormHandler(event) {
   
     const postData = {
       title: document.querySelector('input[name="post-title"]').value.trim(), 
-      post_contents: document.getElementById('post-contents').value.trim(),
+      post_content: document.getElementById('post_content').value.trim(),
     }
     const id = window.location.toString().split("/")[
       window.location.toString().split("/").length - 1
